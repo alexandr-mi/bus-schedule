@@ -1,0 +1,46 @@
+{
+  "name": "name",
+  "buss": [
+    {
+      "number": "num",
+      "weekday": "time",
+      "weekend": "time"
+    },{
+      "number": "num",
+      "weekday": "time",
+      "weekend": "time"
+    },{
+      "number": "num",
+      "weekday": "time",
+      "weekend": "time"
+    },{
+      "number": "num",
+      "weekday": "time",
+      "weekend": "time"
+    },{
+      "number": "num",
+      "weekday": "time",
+      "weekend": "time"
+    },{
+      "number": "num",
+      "weekday": "time",
+      "weekend": "time"
+    },{
+      "number": "num",
+      "weekday": "time",
+      "weekend": "time"
+    },{
+      "number": "num",
+      "weekday": "time",
+      "weekend": "time"
+    },{
+      "number": "num",
+      "weekday": "time",
+      "weekend": "time"
+    },{
+      "number": "num",
+      "weekday": "time",
+      "weekend": "time"
+    }
+  ]
+}

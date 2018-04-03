@@ -1,0 +1,34 @@
+.BusScheduleBus {
+    background: rgba(0,0,0, 0.15);
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.BusScheduleBus__data-wrap {
+    height: 0;
+}
+
+.BusScheduleBus__data-wrap_show {
+    height: 100%;
+    padding-bottom: 15px;
+}
+
+.BusScheduleBus__number {
+    font-size: 18px;
+    line-height: 45px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+.BusScheduleBus__data {
+}
+
+.BusScheduleBus__title {
+    padding: 5px 0;
+}
+
+
+
