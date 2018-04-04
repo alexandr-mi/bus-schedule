@@ -24,11 +24,17 @@
 
 
 .BusScheduleBus__data {
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .BusScheduleBus__title {
     padding: 5px 0;
 }
 
-
+.BusScheduleBus__nearest {
+    font-weight: 600;
+    float: right;
+    color: #C4E0E5;
+}
 

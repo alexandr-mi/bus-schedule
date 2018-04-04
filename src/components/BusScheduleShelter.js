@@ -29,6 +29,7 @@ class BusScheduleShelter extends Component {
           </div>
           <div className={ !this.state.show ? 'BusScheduleShelter__buss' : 'BusScheduleShelter__buss_show'}>
             {
+              this.state.show &&
               buss.map((bus, index) => {
                 return (
                     <BusScheduleBus

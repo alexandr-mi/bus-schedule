@@ -24,7 +24,11 @@ class BusScheduleBus extends Component {
     const {
       number,
       weekday,
-      weekend
+      weekend,
+      saturday,
+      weekdayNearestBus,
+      weekendNearestBus,
+      saturdayNearestBus
     } = this.props.bus;
 
     return (
@@ -34,6 +38,27 @@ class BusScheduleBus extends Component {
               onClick={this.handlerShow}
           >
           {number}
+              {
+                weekdayNearestBus
+                  &&
+                <div className="BusScheduleBus__nearest">
+                  через {weekdayNearestBus}
+                </div>
+              }
+              {
+                weekendNearestBus
+                &&
+                <div className="BusScheduleBus__nearest">
+                  через {weekendNearestBus}
+                </div>
+              }
+              {
+                saturdayNearestBus
+                &&
+                <div className="BusScheduleBus__nearest">
+                  через {saturdayNearestBus}
+                </div>
+              }
           </div>
           <div
               ref={dataWrap => this.dataWrap = dataWrap}
@@ -51,6 +76,13 @@ class BusScheduleBus extends Component {
               && <div className='BusScheduleBus__data BusScheduleBus__data-weekend'>
                 <div className='BusScheduleBus__title'>Выходной:</div>
                 <div className='BusScheduleBus__shelter'>{weekend}</div>
+              </div>
+            }
+            {
+              saturday
+              && <div className='BusScheduleBus__data BusScheduleBus__data-weekend'>
+                <div className='BusScheduleBus__title'>Суббота:</div>
+                <div className='BusScheduleBus__shelter'>{saturday}</div>
               </div>
             }
           </div>
